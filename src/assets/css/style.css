@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+:root {
+  background-color: #F4F7FF;
+}
+
+/* Text Styles */
+.text-badge{
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.text-section-title{
+  font-size: 34px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.text-section-desc{
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.subtitle{
+  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Color Styles */
+.color-primary{
+  color: #4A72FF;
+}
+
+.color-primary-light{
+  color: #4A72FF;
+  opacity: 5%;
+}
+
+.color-dark{
+  color: #0C1B4D
+}
+
+.color-dark-light{
+  color: #0C1B4D;
+  opacity: 60%;
+}
