@@ -1,11 +1,18 @@
 <script>
+import Navbar from "./components/Navbar.vue"
 
+export default {
+  name: "App",
+  components: {
+    Navbar
+  },
+}
 </script>
 
 <template>
-  <div class="alert alert-primary" role="alert">
-  A simple primary alert—check it out!
-</div>
+  <div>
+    <Navbar />
+  </div>
 </template>
 
 <style scoped>

@@ -5,6 +5,21 @@
   background-color: #F4F7FF;
 }
 
+#app{
+  background-color: #F4F7FF;
+  font-family: 'Source Sans 3', sans-serif;
+  margin: 20px 0px;
+}
+
+/* Space Styles */
+.space-intro{
+  gap: 75px;
+}
+
+.space{
+  gap: 100px;
+}
+
 /* Text Styles */
 .text-badge{
   font-size: 16px;
@@ -43,4 +58,13 @@
 .color-dark-light{
   color: #0C1B4D;
   opacity: 60%;
+}
+
+/* Button Style */
+.btn-primary{
+  background-color: #4A72FF !important;
+}
+
+.btn-primary:hover{
+  background-color: #4165ea !important;
 }
