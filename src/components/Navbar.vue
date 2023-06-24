@@ -1,9 +1,11 @@
 <script>
+export default {
 
+}
 </script>
 
 <template>
-    <div class = "container">
+    <section id = "navbar" class = "container">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><div class="h4"><i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i></div></a>
@@ -26,12 +28,12 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <button type = "button" class = "btn btn-primary shadow px-4"> Download </button>
+                    <button type = "button" class = "btn btn-primary px-4 shadow-secondary"> Download </button>
                 </span>
                 </div>
             </div>
         </nav>
-    </div>
+    </section>
 </template>
 
 <style scoped>
