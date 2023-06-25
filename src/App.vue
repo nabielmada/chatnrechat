@@ -1,12 +1,14 @@
 <script>
 import Navbar from "./components/Navbar.vue"
 import Intro from "./components/Intro.vue"
+import Footer from "./components/Footer.vue"
 
 export default {
   name: "App",
   components: {
     Navbar,
-    Intro
+    Intro,
+    Footer
   },
 }
 </script>
@@ -15,6 +17,7 @@ export default {
   <div>
     <Navbar />
     <Intro />
+    <Footer />
   </div>
 </template>
 

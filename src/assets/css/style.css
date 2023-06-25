@@ -16,7 +16,7 @@
 #app{
   background-color: #F4F7FF;
   font-family: 'Source Sans 3', sans-serif;
-  margin: 20px 0px;
+  margin-top: 20px;
 }
 
 /* Space Styles */
@@ -123,4 +123,13 @@
 /* Components Styles */
 #features{
   background: radial-gradient(50% 50.00% at 50% 50.00%, #E2EAFF 0%, #F4F7FF 100%);
+}
+
+#footer{
+  padding: 80px;
+  margin-top: 100px;
+}
+
+.sitemap a {
+  text-decoration: none;
 }
